@@ -6,3 +6,11 @@ export default function sum(manyNumbers) {
   }
   return result;
 }
+
+export function sum2(numbers) {
+  let result = 0;
+  numbers.forEach((element) => {
+    result = element + result;
+  });
+  return result;
+}
